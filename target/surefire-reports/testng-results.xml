@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Grocery" duration-ms="12346" started-at="2022-06-08T16:29:36 IST" finished-at="2022-06-08T16:29:48 IST">
+    <groups>
+    </groups>
+    <test name="GroceryTest" duration-ms="12346" started-at="2022-06-08T16:29:36 IST" finished-at="2022-06-08T16:29:48 IST">
+      <class name="com.qa.testcase.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcase.HomePageTest@8e24743]" name="setUp" is-config="true" duration-ms="8359" started-at="2022-06-08T16:29:36 IST" finished-at="2022-06-08T16:29:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="performlogin()[pri:0, instance:com.qa.testcase.HomePageTest@8e24743]" name="performlogin" is-config="true" duration-ms="2530" started-at="2022-06-08T16:29:44 IST" finished-at="2022-06-08T16:29:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performlogin -->
+        <test-method status="PASS" signature="homeIconTest()[pri:1, instance:com.qa.testcase.HomePageTest@8e24743]" name="homeIconTest" duration-ms="80" started-at="2022-06-08T16:29:47 IST" finished-at="2022-06-08T16:29:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeIconTest -->
+        <test-method status="PASS" signature="menuDisplayTest()[pri:2, instance:com.qa.testcase.HomePageTest@8e24743]" name="menuDisplayTest" duration-ms="59" started-at="2022-06-08T16:29:47 IST" finished-at="2022-06-08T16:29:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuDisplayTest -->
+        <test-method status="PASS" signature="pushMenuTest()[pri:3, instance:com.qa.testcase.HomePageTest@8e24743]" name="pushMenuTest" duration-ms="170" started-at="2022-06-08T16:29:47 IST" finished-at="2022-06-08T16:29:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pushMenuTest -->
+        <test-method status="PASS" signature="footerTest()[pri:4, instance:com.qa.testcase.HomePageTest@8e24743]" name="footerTest" duration-ms="230" started-at="2022-06-08T16:29:47 IST" finished-at="2022-06-08T16:29:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerTest -->
+        <test-method status="PASS" signature="closeTest()[pri:5, instance:com.qa.testcase.HomePageTest@8e24743]" name="closeTest" duration-ms="813" started-at="2022-06-08T16:29:47 IST" finished-at="2022-06-08T16:29:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- com.qa.testcase.HomePageTest -->
+    </test> <!-- GroceryTest -->
+  </suite> <!-- Grocery -->
+</testng-results>

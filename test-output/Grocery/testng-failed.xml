@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Grocery]">
+  <test thread-count="5" name="GroceryTest(failed)">
+    <classes>
+      <class name="com.qa.testcase.AddProductTest">
+        <methods>
+          <include name="performlogin"/>
+          <include name="setUp"/>
+          <include name="quit"/>
+          <include name="addProductTest"/>
+        </methods>
+      </class> <!-- com.qa.testcase.AddProductTest -->
+    </classes>
+  </test> <!-- GroceryTest(failed) -->
+</suite> <!-- Failed suite [Grocery] -->

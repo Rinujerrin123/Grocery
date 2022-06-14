@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Grocery">
+<!-- <test thread-count="2" name="Test" parallel="classes"> -->
+ <listeners>
+<listener class-name="com.qa.base.Listeners"/>
+</listeners>
+
+  <test  name="GroceryTest"  >
+    <classes>
+      <class name="com.qa.testcase.LoginTest"/> 
+      <!--   <class name="com.qa.testcase.HomePageTest"/>  -->
+       <!--  <class name="com.qa.testcase.ManageOrderTest"/> -->
+       <!--  <class name="com.qa.testcase.SearchListOrderTest"/>    -->
+        <!--  <class name="com.qa.testcase.ManageProductTest"/>   -->
+       <!--  <class name="com.qa.testcase.AddProductTest"/> -->
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
